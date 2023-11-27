@@ -1,0 +1,28 @@
+{
+  "name": "jest_bindings",
+  "version": "1.0.0",
+  "description": "[![Package Version](https://img.shields.io/hexpm/v/jest_bindings)](https://hex.pm/packages/jest_bindings) [![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/jest_bindings/)",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "foo": "jest",
+    "test": "gleam build && jest"
+  },
+  "dependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "7.23.3",
+    "@types/jest": "^29.5.10",
+    "@babel/core": "7.23.3",
+    "babel-jest": "^29.7.0",
+    "regenerator-runtime": "^0.14.0",
+    "vitest": "^0.34.6"
+  }
+}
